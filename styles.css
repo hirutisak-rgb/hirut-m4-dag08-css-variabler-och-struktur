@@ -117,7 +117,7 @@ h3 {
 }
 
 a {
-  color: #8c1010;
+  color: var(--color-primary);
   text-underline-offset: 3px;
 }
 
