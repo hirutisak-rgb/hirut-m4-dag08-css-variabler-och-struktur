@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: var(--font-body);
   color: var(--color-text);
   background-color: var(--color-background);
 }
@@ -83,7 +83,7 @@ address {
 
 /* ===== Dag 4: typografi och färg ===== */
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -91,7 +91,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   line-height: 1.2;
   color: var(--color-heading);
 }
