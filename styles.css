@@ -156,7 +156,7 @@ textarea:focus-visible {
 /* Formulär */
 .falt,
 .val {
-  margin-bottom: 16px;
+  margin-bottom: var(--space-2);
 }
 
 label {
