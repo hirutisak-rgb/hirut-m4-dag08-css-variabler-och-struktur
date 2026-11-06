@@ -143,7 +143,7 @@ textarea:focus-visible {
 }
 
 #hero {
-  background-color: #f3e3cf;
+  background-color: var(--color-hero-bg);
   padding: 32px 24px;
   border-radius: 8px;
 }
@@ -180,7 +180,7 @@ textarea {
   width: 100%;
   max-width: 28rem;
   padding: 10px 12px;
-  border: 2px solid #8a7a6a;
+  border: 2px solid var(--color-input-border);
   border-radius: 6px;
   font: inherit;
 }
