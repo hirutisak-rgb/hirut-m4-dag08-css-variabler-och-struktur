@@ -122,7 +122,7 @@ a {
 }
 
 a:hover {
-  color: #5e0a0a;
+  color: var(--color-link-hover);
 }
 
 nav a {
@@ -130,7 +130,7 @@ nav a {
 }
 
 .knapp:hover {
-  background-color: #6f0c0c;
+  background-color: var(--color-primary-dark);
 }
 
 a:focus-visible,
@@ -138,7 +138,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid #1a73e8;
+  outline: 3px solid var(--color-focus);
   outline-offset: 2px;
 }
 
