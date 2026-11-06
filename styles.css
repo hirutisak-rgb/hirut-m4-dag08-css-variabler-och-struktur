@@ -8,12 +8,12 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  color: #222222;
-  background-color: #fffaf3;
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
 
 header {
-  background-color: #5b3a29;
+  background-color: var(--color-secondary);
   color: #ffffff;
   padding: 16px 24px;
 }
@@ -44,7 +44,7 @@ section {
 
 article {
   background-color: #ffffff;
-  border: 1px solid #e3d5c3;
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 16px;
@@ -113,7 +113,7 @@ h3 {
 
 .pris {
   font-weight: 700;
-  color: #8c1010;
+  color: var(--color-primary);
 }
 
 a {
@@ -186,7 +186,7 @@ textarea {
 }
 
 fieldset {
-  border: 1px solid #e3d5c3;
+  border: 1px solid var(--color-border);
   border-radius: 8px;
   margin: 0 0 16px;
   padding: 12px 16px;
